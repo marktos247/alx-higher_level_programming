@@ -1,9 +1,7 @@
-/*
- * File: 103-python.c
- * Auth: Marktos247
- */
-
+#include <stdio.h>
 #include <Python.h>
+#include <stdlib.h>
+#include <floatobject.h>
 
 void print_python_list(PyObject *p);
 void print_python_bytes(PyObject *p);
